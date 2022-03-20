@@ -61,7 +61,6 @@ C:\GitHub\ListOfCompanies\ListOfCompanies\bin\System.Web.Razor.dll
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\System.Web.WebPages.Deployment.dll
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\System.Web.WebPages.dll
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\System.Web.WebPages.Razor.dll
-C:\GitHub\ListOfCompanies\ListOfCompanies\bin\WebGrease.dll
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\System.Web.Helpers.xml
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\System.Web.Mvc.xml
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\System.Web.Optimization.xml
