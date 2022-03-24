@@ -14,6 +14,6 @@ namespace ListOfCompanies.Models
         public string ContactEmail { get; set; }
         public string ContactFirstName { get; set; }
         public string ContactLastName { get; set; }
-        public string source { get; set; }
+       
     }
 }

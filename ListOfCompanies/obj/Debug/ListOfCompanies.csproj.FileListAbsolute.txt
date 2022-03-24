@@ -71,10 +71,11 @@ C:\GitHub\ListOfCompanies\ListOfCompanies\bin\System.Web.WebPages.Razor.xml
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\Newtonsoft.Json.xml
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\Antlr3.Runtime.pdb
 C:\GitHub\ListOfCompanies\ListOfCompanies\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\GitHub\ListOfCompanies\ListOfCompanies\obj\Debug\ListOfCompanies.csproj.AssemblyReference.cache
 C:\GitHub\ListOfCompanies\ListOfCompanies\obj\Debug\ListOfCompanies.csproj.CoreCompileInputs.cache
 C:\GitHub\ListOfCompanies\ListOfCompanies\obj\Debug\ListOfCompanies.csproj.CopyComplete
 C:\GitHub\ListOfCompanies\ListOfCompanies\obj\Debug\ListOfCompanies.dll
 C:\GitHub\ListOfCompanies\ListOfCompanies\obj\Debug\ListOfCompanies.pdb
 C:\GitHub\ListOfCompanies\ListOfCompanies\obj\Debug\ListOfCompanies.Resource1.resources
 C:\GitHub\ListOfCompanies\ListOfCompanies\obj\Debug\ListOfCompanies.csproj.GenerateResource.cache
+C:\GitHub\ListOfCompanies\ListOfCompanies\bin\WebGrease.dll
+C:\GitHub\ListOfCompanies\ListOfCompanies\obj\Debug\ListOfCompanies.csproj.AssemblyReference.cache

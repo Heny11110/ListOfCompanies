@@ -82,13 +82,11 @@ namespace ListOfCompanies.Services
                     comp.ContactPhoneNumber = values[2];
                     comp.YearsInBusiness = values[3];
                     comp.ContactEmail = values[4];
-                    comp.source = "comma";
                     break;
                 case '#':
                     comp.ContactName = values[2];
                     comp.ContactPhoneNumber = values[3];
                     comp.YearsInBusiness = values[1];
-                    comp.source = "hash";
                     break;
                 case '-':
                     comp.ContactPhoneNumber = values[2];
@@ -96,7 +94,6 @@ namespace ListOfCompanies.Services
                     comp.ContactEmail = values[3];
                     comp.ContactFirstName = values[4];
                     comp.ContactLastName = values[5];
-                    comp.source = "--";
                     break;
             }
             return comp;

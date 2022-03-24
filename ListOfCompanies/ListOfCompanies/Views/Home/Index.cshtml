@@ -1,0 +1,61 @@
+﻿@using ListOfCompanies.Models
+@model  ListOfCompanies.Models.CompaniesModel
+<br/>
+<br />
+<br />
+<form asp-action="Index">
+<div> 
+@Html.DropDownList("sortOrder", new List<SelectListItem>
+{
+    new SelectListItem{ Text="", Value = "" },
+    new SelectListItem{ Text="Company Name", Value = "companyName" },
+    new SelectListItem{ Text="Contact Name", Value = "contactName" },
+    new SelectListItem{ Text="Year In Business Company Name", Value = "yearsInBusiness_CompanyName" },
+})
+
+    <input type="submit" value="Ok" />
+</div>
+<table class="table table-bordered table-responsive table-hover">
+    <tr>
+        <th>
+             Company Name 
+        </th>
+        <th>
+             Years In Business 
+        </th>
+        <th>
+             Contact Name 
+        </th>
+        <th>
+            Contact Phone Number 
+        </th>
+        <th>
+            Contact Email 
+        </th>
+    </tr>
+    
+    @foreach (var company in Model.Companies)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(model => company.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => company.YearsInBusiness)
+            </td>
+            <td>
+                @Html.DisplayFor(model => company.ContactName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => company.ContactPhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(model => company.ContactEmail)
+            </td>
+            
+        </tr>
+    }
+</table>
+
+</form>
